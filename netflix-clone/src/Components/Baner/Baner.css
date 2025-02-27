@@ -1,0 +1,7 @@
+.banner {
+    height: 400px; /* ✅ Ensure it is visible */
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    padding: 20px;
+}

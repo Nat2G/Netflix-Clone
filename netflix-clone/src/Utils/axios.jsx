@@ -4,7 +4,7 @@ import axios from "axios";
 // const BASE_URL = "https://api.themoviedb.org/3"; // TMDb API URL
 
 const instance = axios.create({
-  baseURL: "https://api.themoviedb.org/3";,
+  baseURL: "https://api.themoviedb.org/3",
  
 });
 
