@@ -9,10 +9,43 @@ function Rowlist() {
     <Row
     title="NETFLIX ORGINALS"
     fetchUrl={requests.fetchNetflixOriginals}
+    isLargeRow={true}
     />
-    <Row/>
-    <Row/>
-    <Row/>
+    <Row
+    title="TRENDING NOW"
+    fetchUrl={requests.fetchTrending}
+    
+    />
+     <Row
+    title="TOP RATED"
+    fetchUrl={requests.fetchTopRated}
+    
+    />
+     <Row
+    title="ACTION MOVIES"
+    fetchUrl={requests.fetchActionMovies}
+    
+    />
+     <Row
+    title="COMEDY"
+    fetchUrl={requests.fetchComedyMovies}
+    
+    />
+     <Row
+    title="HORROR"
+    fetchUrl={requests.fetchHorrorMovies}
+    
+    />
+     <Row
+    title="ROMANCE"
+    fetchUrl={requests.fetchRomanceMovies}
+    
+    />
+     <Row
+    title="DOCUMETNRY"
+    fetchUrl={requests.fetchDocumentaries}
+    
+    />
         </>
   )
 }
